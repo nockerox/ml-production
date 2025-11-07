@@ -1,0 +1,10 @@
+### Запрос на предсказание для одной локации
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+    "pulocationid": 130
+}
+
+### Проверка состояния сервиса (health check)
+GET http://127.0.0.1:8000/health
